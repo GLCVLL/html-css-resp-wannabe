@@ -130,26 +130,43 @@ img {
  ************************************************/
 
 
- @media screen and (max-width: 1200px) {
+ @media screen and (min-width: 576px) {
+    .container{
+        width: 550px;
+    }
+
+    .lessons .row,
+    .steps .row, 
+    .why-us .row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+} 
+ @media screen and (min-width: 768px) {
+    .container{
+        width: 740px;
+    }
+
+    .lessons .row,
+    .steps .row,
+    .why-us .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+ }
+
+ @media screen and (min-width: 992px) {
     .container{
         width: 970px;
     }
  }
 
- @media screen and (max-width: 992px) {
+ @media screen and (min-width: 1200px) {
     .container{
-        width: 740px;
-    }
- }
-
- @media screen and (max-width: 768px) {
-    .container{
-        width: 520px;
-    }
- }
-
- @media screen and (max-width: 556px) {
-    .container{
-        width: 100%;
+        width: 1140px;
     }
  }
