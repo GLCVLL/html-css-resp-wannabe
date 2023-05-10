@@ -41,6 +41,7 @@ img {
     max-width: 100%;
 }
 
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -127,3 +128,28 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ @media screen and (max-width: 1200px) {
+    .container{
+        width: 970px;
+    }
+ }
+
+ @media screen and (max-width: 992px) {
+    .container{
+        width: 740px;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+    .container{
+        width: 520px;
+    }
+ }
+
+ @media screen and (max-width: 556px) {
+    .container{
+        width: 100%;
+    }
+ }
